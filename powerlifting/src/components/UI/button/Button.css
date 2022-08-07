@@ -1,0 +1,30 @@
+ a {
+     color: var(--main-text-color);
+     text-decoration: none;
+     margin-right: 1rem;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     color: var(--hover-color);
+ }
+
+ a.btn {
+     border: 2px solid var(--hover-color);
+     margin-left: 1rem;
+     font-size: 12px;
+     padding: 5px 45px;
+     background-color: var(--hover-color);
+     color: var(--background-color);
+     display: flex;
+     text-align: center;
+     justify-content: center;
+ }
+
+ a.btn:hover {
+     background-color: var(--hover-dark);
+     color: var(--background-color);
+     text-decoration: none;
+     border: 2px solid var(--hover-dark);
+     /*z-index: 111;*/
+ }
